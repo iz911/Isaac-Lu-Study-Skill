@@ -1,6 +1,6 @@
-# part-b-study: a Claude Code skill for Singapore law exam prep
+# Isaac-Lu-study-skill: an AI Skill for Singapore law exam prep
 
-A study-partner skill for [Claude Code](https://claude.com/claude-code). It acts as a Singapore law professor and walks you through one lecture at a time (Part B / bar course modules such as civil litigation, criminal litigation, ethics, conveyancing, corporate practice). It produces copy-ready study notes with:
+A study-partner skill that was made primarily for [Claude Code](https://claude.com/claude-code). The author, Isaac, made this skill as a helper to prepare notes for his law exams in university and for the Bar exam. It acts as a Singapore law professor and walks you through one lecture at a time for law modules. It produces copy-ready study notes with:
 
 - verbatim statute and Rules of Court text, checked against the current official version
 - verbatim case ratios with pinpoints, key facts, **hooks and red herrings** for open-book hypotheticals
@@ -11,7 +11,7 @@ It also keeps a per-module `course-map.md` so each lecture can be done in a fres
 
 ## Install
 
-Copy the `part-b-study` folder into your Claude Code skills directory:
+Copy the `Isaac-Lu-study-skill` folder into your Claude Code skills directory:
 
 ```bash
 # macOS / Linux
