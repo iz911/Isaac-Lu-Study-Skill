@@ -1,4 +1,4 @@
-# Isaac-Lu-study-skill: an AI Skill for Singapore law exam prep
+# Isaac-Lu-Study-Skill: an AI Skill for law exam prep
 
 A study-partner skill that was made primarily for [Claude Code](https://claude.com/claude-code). The author, Isaac, made this skill as a helper to prepare notes for his law exams in university and for the Bar exam. It acts as a Singapore law professor and walks you through one lecture at a time for law modules. It produces copy-ready study notes with:
 
