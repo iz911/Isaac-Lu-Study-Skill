@@ -15,23 +15,23 @@ Copy the `Isaac-Lu-study-skill` folder into your Claude Code skills directory:
 
 ```bash
 # macOS / Linux
-cp -r part-b-study ~/.claude/skills/
+cp -r isaac-lu-study-skill ~/.claude/skills/
 
 # Windows (PowerShell)
-Copy-Item -Recurse part-b-study $env:USERPROFILE\.claude\skills\
+Copy-Item -Recurse isaac-lu-study-skill $env:USERPROFILE\.claude\skills\
 ```
 
-Then run `/part-b-study` inside your module folder, or just say "take me through Lecture 1".
+Then run `/isaac-lu-study-skill` inside your module folder, or just say "take me through Lecture 1".
 
 ## What's inside
 
 | File | Purpose |
 |---|---|
-| `part-b-study/SKILL.md` | The workflow: intake, convert sources, research, write notes, update course map |
-| `part-b-study/references/note-format.md` | The note house style (headings, gist labels, 4-part case format, verbatim rules) |
-| `part-b-study/references/research.md` | Where to get verbatim text (SSO, eLitigation, Practice Directions) and the helper-agent prompt |
-| `part-b-study/templates/course-map.md` | Template for the per-module progress index |
-| `part-b-study/scripts/extract_text.py` | Converts PDF / DOCX / PPTX / transcripts to text so Claude can grep instead of reading whole files |
+| `isaac-lu-study-skill/SKILL.md` | The workflow: intake, convert sources, research, write notes, update course map |
+| `isaac-lu-study-skill/references/note-format.md` | The note house style (headings, gist labels, 4-part case format, verbatim rules) |
+| `isaac-lu-study-skill/references/research.md` | Where to get verbatim text (SSO, eLitigation, Practice Directions) and the helper-agent prompt |
+| `isaac-lu-study-skill/templates/course-map.md` | Template for the per-module progress index |
+| `isaac-lu-study-skill/scripts/extract_text.py` | Converts PDF / DOCX / PPTX / transcripts to text so Claude can grep instead of reading whole files |
 
 ## Requirements
 

@@ -1,6 +1,6 @@
 # Course map: <Module name>
 
-_Created <date> by the part-b-study skill. This is an index for future study sessions, not a copy of the notes. Keep it short._
+_Created <date> by the isaac-lu-study-skill skill. This is an index for future study sessions, not a copy of the notes. Keep it short._
 
 ## Module and exam
 - **Module:** <e.g. Civil Litigation Practice (Part B 2026, Session 2)>
