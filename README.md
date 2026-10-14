@@ -39,6 +39,16 @@ Then run `/part-b-study` inside your module folder, or just say "take me through
 - Python 3 with `pymupdf` (or `pypdf`) for PDFs, `python-docx` for Word files, optionally `python-pptx`:
   `pip install pymupdf python-docx python-pptx`
 
+## Using this outside Claude Code
+
+The skill is a standard `SKILL.md` folder (name and description header, plus reference files and a script), the same layout as the open Agent Skills format. Recent reports say ChatGPT now accepts skills in that format, under its Plugins area in a Skills tab, but availability depends on your plan and workspace settings. Check OpenAI's help centre for the current steps. If upload is blocked or marked "Needs Review", the fallback is to paste `SKILL.md` and the two files in `references/` into a Custom GPT's instructions or a ChatGPT Project.
+
+Things that may not carry over:
+- **Parallel case research:** the helper-agent step is a Claude Code feature. Ask the assistant to research one case at a time instead.
+- **Fetching Singapore Statutes Online / eLitigation:** this relies on browsing tools. If they fail, paste the verbatim text yourself and have the assistant mark anything else `[unverified]`.
+- **`scripts/extract_text.py`:** needs a local Python environment. Elsewhere, upload text or PDFs and ask for slide or page references.
+- **Course map:** progress tracking relies on writing `course-map.md` into your module folder, which a chat-only setup can't do. Paste the map in at the start of each chat.
+
 ## Customising
 
 The note style in `references/note-format.md` is one student's preferences. Fork it and edit to suit yours. The skill can also learn differences from your old notes and records them in the course map.
